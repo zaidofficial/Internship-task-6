@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    animation: appear 1s linear;
+}
+/* navbar */
+nav {
+    height: 50px;
+    background-color: #A2D5C6;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.option {
+    height: 80%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.option li {
+    list-style: none;
+    display: inline-block;
+    justify-content: center;
+    padding-left: 50px;
+}
+.option li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-family: 'Trebuchet MS';
+}
+.option li a:hover {
+    color: #F6F6F6;
+}
+.empty {
+    height: 80%;
+    width: 30%;
+}
+/* hero sectiom */
+.hero {
+    height: 700px;
+    background-color: #CFFFE2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+marquee {
+    height: 35px;
+    background-color: navy;
+    color: #CFFFE2;
+    font-size: 1.2rem;
+}
+.title {
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title button {
+    height: 40px;
+    width: 90px;
+    color: #F6F6F6;
+    background-color: black;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.title button:hover {
+    color:black;
+    background-color: white;
+}
+.image {
+    height: 400px;
+    width: 500px;
+    
+    background-image: url("download.png");
+    background-size: cover;
+}
+/* benefits */
+.benefits {
+    height: 450px;
+    background-color: #CFFFE2;
+}
+.benefits p {
+    margin-top: 20px;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 1.5rem;
+    position: relative;
+    left: 500px;
+}
+.heading  {
+    height: 40px;
+    background-color: #A2D5C6;
+    display: flex;
+    justify-content: center;
+}
+.cards {
+    margin-top: 20px;
+    height: 300px;
+    width: 1200px;
+    position: relative;
+    left: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.sub-card {
+    height: 60%;
+    width: 150px;
+    font-family: 'Lucida Sans';
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.logo {
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    font-size: 3rem;
+}
+/* contact */
+.contact-info {
+    height: 400px;
+    background-color: #CFFFE2;
+}
+.contacts {
+    margin-top: 60px;
+    height: 300px;
+    width: 1200px;
+    position: relative;
+    left: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.box {
+    width: 170px;
+    height: 160px;
+}
+.box i {
+    color: #273F4F;
+}
+.box a {
+    color: #273F4F;
+}
+.box h4 {
+    color: #273F4F;
+}
+.logo1 {
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 3rem;
+}

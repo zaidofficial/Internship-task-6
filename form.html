@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="/Tasks/task6/form.css">
+</head>
+<body>
+    
+    <div id="div1">
+    <form onsubmit=" return data(event)" action="abc.html">
+        <label for="fullname">Full Name</label><br>
+        <input type="text" placeholder="full name" id="name" name="fullname"><br>
+        <label for="email">Email</label><br>
+        <input type="text" placeholder="email@.com" id="email"><br>
+        <label for="rollno">Roll No</label><br>
+        <input type="text" id="rollno" ><br>
+        <label for="password">Password</label><br>
+        <input type="password" placeholder="atleast 10 character" id="password" ><br>
+        <label for="student">Student</label>
+        <input type="checkbox" id="student">
+        <label for="employee">Employee</label>
+        <input type="checkbox" id="employee"><br>
+        <button id="btn">Submit</button>
+    </form>
+    </div>
+    <script src="/Tasks/task6/form.js"></script>
+</body>
+</html>

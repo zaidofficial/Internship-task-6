@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 1300px;
+    font-family: Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: 100px;
+}
+
+#div1 {
+    height: 300px;
+    width: 300px;
+    background-color: #5EABD6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+#btn {
+    height: 40px;
+    width: 65px;
+    background-color: #E14434;
+    color: #FEFBC7;
+    font-size: medium;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    border-radius: 10px;
+}
