@@ -1,35 +1,86 @@
+/* Reset default margin and padding */
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* Body styling */
 body {
-    width: 1300px;
-    font-family: Tahoma, sans-serif;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    position: relative;
-    top: 100px;
-}
-
-#div1 {
-    height: 300px;
-    width: 300px;
-    background-color: #5EABD6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f4f8;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    height: 100vh;
 }
+
+/* Form container */
+#div1 {
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+#div1 h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Form elements */
+form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border 0.3s;
+}
+
+form input[type="text"]:focus,
+form input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Checkbox styling */
+form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+form label[for="student"],
+form label[for="employee"] {
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: normal;
+}
+
+/* Submit Button */
 #btn {
-    height: 40px;
-    width: 65px;
-    background-color: #E14434;
-    color: #FEFBC7;
-    font-size: medium;
-    position: relative;
-    left: 50px;
-    top: 20px;
-    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#btn:hover {
+    background: #0056b3;
 }
